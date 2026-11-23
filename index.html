@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GODS LAND | Streetwear</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #080808;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 25px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.logo span {
+  color: #999;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.hero {
+  min-height: 570px;
+  padding: 120px 10%;
+  background: radial-gradient(circle at 80% 50%, #333, #080808 55%);
+}
+
+.small {
+  color: #aaa;
+  letter-spacing: 5px;
+  font-size: 11px;
+}
+
+h1 {
+  font-size: clamp(55px, 10vw, 110px);
+  line-height: .9;
+  margin: 30px 0;
+  letter-spacing: -5px;
+}
+
+h1 span {
+  color: #888;
+}
+
+.hero p {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 16px 25px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 12px;
+  transition: .3s;
+}
+
+.button:hover {
+  background: white;
+  color: black;
+}
+
+section {
+  padding: 90px 8%;
+}
+
+.collection {
+  background: #eee;
+  color: #111;
+}
+
+h2 {
+  font-size: 55px;
+  margin: 20px 0 40px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product {
+  text-align: center;
+}
+
+.product-image {
+  height: 280px;
+  background: linear-gradient(145deg, #444, #080808);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  font-weight: bold;
+  color: #ddd;
+  letter-spacing: 5px;
+}
+
+.product h3 {
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.product p {
+  color: #777;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+.about {
+  max-width: 800px;
+}
+
+.about p {
+  color: #aaa;
+  line-height: 1.8;
+}
+
+footer {
+  border-top: 1px solid #333;
+  padding: 30px;
+  text-align: center;
+  color: #777;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+@media(max-width:650px) {
+  header {
+    padding: 20px 5%;
+  }
+
+  nav a {
+    margin-left: 8px;
+    font-size: 10px;
+  }
+
+  .products {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">GODS<span>LAND</span></div>
+  <nav>
+    <a href="#drop">SHOP</a>
+    <a href="#about">ABOUT</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="small">INDEPENDENT STREETWEAR</div>
+
+  <h1>BUILT FOR<br><span>THE UNKNOWN.</span></h1>
+
+  <p>No limits. No ordinary days.</p>
+
+  <a href="#drop" class="button">EXPLORE THE DROP</a>
+</div>
+
+<section class="collection" id="drop">
+  <div class="small">THE FIRST COLLECTION</div>
+  <h2>FIRST DROP 001</h2>
+
+  <div class="products">
+
+    <div class="product">
+      <div class="product-image">GL</div>
+      <h3>ORIGIN TEE</h3>
+      <p>COMING SOON</p>
+    </div>
+
+    <div class="product">
+      <div class="product-image">G</div>
+      <h3>MOON HOODIE</h3>
+      <p>COMING SOON</p>
+    </div>
+
+    <div class="product">
+      <div class="product-image">GL</div>
+      <h3>SHADOW CAP</h3>
+      <p>COMING SOON</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="small">OUR WORLD</div>
+  <h2>MORE THAN<br>WHAT YOU WEAR.</h2>
+
+  <p>
+    GODS LAND is an independent streetwear concept
+    built around identity, creativity and moving
+    your own way.
+  </p>
+</section>
+
+<footer>
+  © 2026 GODS LAND · ALL RIGHTS RESERVED
+</footer>
+
+</body>
+</html>
+
+
